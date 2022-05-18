@@ -10,6 +10,17 @@
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    animation-name: aparecer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 ul{
@@ -23,6 +34,8 @@ li{
 }
    
 body{
+    display: grid;
+    grid-template-rows: max-content;
     background-color: #B5AA9D;
     font-family: 'Roboto', sans-serif
 }
@@ -48,41 +61,8 @@ h2{
 }
 
 a:hover {
-    color: #B5AA9D;
+    color: #B5AA9D;    
 }
-
-/*.nav__link::before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-    transform-origin: right top;
-    transform: scale(0, 1);
-    transition: color 0.1s; transform: 0.2s; ease-out; 
-}
-.nav__link: hover: ::before,
-.nav__link:focus: ::before {
-    transform-origin: :left top;
-    transform:scale (1, 1);
-}
-.nav__link {
-    color: inherit;
-    text-decoration: none;
-    margin-right: 50px;
-    position: relative;
-    font-family: "raleway", sans-serif;
-    padding: 16px 0;
-    margin: 0 12px;
-    letter-spacing: 1px;
-    line-height: 16px;
-    font-weight: 700;
-    transition: color 0.1s, background-color 0.1s, padding 0,2s ease-in;
-    color: #fff;
-}*/
 .imagenLogoPrincipal{
     width: 20%;
 }
@@ -93,6 +73,8 @@ a:hover {
 
 header{
     background-color: #B5AA9D;
+    display: grid;
+    grid-template-rows: max-content;
 }
 
 .logo{
@@ -127,8 +109,10 @@ header{
 }
 footer {
     text-align: center;
-    
+    display: grid;
+    grid-template-rows: max-content;
 }
+    
 .facebook:hover {
 color: #7C90A0;
 }
