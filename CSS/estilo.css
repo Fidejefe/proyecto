@@ -13,14 +13,14 @@ h1 {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
-@keyframes aparecer {
+/* @keyframes aparecer {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
     }
-}
+} */
 
 ul{
     text-align: center;
@@ -35,10 +35,16 @@ li{
 body{
     display: grid;
     grid-template-rows: max-content;
-    background-color: #B5AA9D;
+    background-color: #B5AA9D;  
     font-family: 'Roboto', sans-serif
 }
-
+.seccionRedes {
+ display: flex;
+ justify-content:space-around;
+}
+.redes:hover {
+    color: #7C90A0;
+}
 a{
     text-decoration: none;
     color: black;
@@ -55,10 +61,8 @@ h2{
 }
 .menu {
     margin: 40px;
-    font-size: x-large;
-    
+    font-size: x-large;   
 }
-
 a:hover {
     color: #B5AA9D;    
 }
@@ -115,9 +119,6 @@ footer {
     grid-template-rows: max-content;
 }
     
-.facebook:hover {
-color: #7C90A0;
-}
 .ulPrincipal {
     background-color: #7C90A0;
 }
