@@ -1,1 +1,17 @@
-$color-principal: #7
+$color-principal: #B5AA9D ;
+$color-secundario: #7C90A0 ;
+
+.pageImages {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .image {
+        width: 30%;
+        text-align: center;
+    }
+}
+body {
+   background-color: $color-principal; 
+   
+}   
