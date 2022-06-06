@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.pageImages {
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+  .pageImages .image {
+    width: 30%;
+    text-align: center; }
+
+body {
+  background-color: #B5AA9D; }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400&display=swap');
 
 * {
@@ -9,18 +20,11 @@
 /* Globals */
 h1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;    animation-name: aparecer;
+    font-family: 'Roboto', sans-serif;    
+    animation-name: aparecer;
     animation-duration: 4s;
     animation-iteration-count: infinite;  
 }
-/* @keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-} */
 
 ul{
     text-align: center;
@@ -35,7 +39,7 @@ li{
 body{
     display: grid;
     grid-template-rows: max-content;
-    background-color: #B5AA9D;  
+   /* background-color: #B5AA9D; */
     font-family: 'Roboto', sans-serif
 }
 .seccionRedes {
@@ -106,7 +110,11 @@ header{
     flex-wrap: wrap;
 }
 .contenedorImagen {
-    color: black;
+  background-color: black;
+  width: 25%;
+}
+.image2 {
+  width: 80%;
 }
 .image {
     width: 30%;
