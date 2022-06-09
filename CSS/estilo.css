@@ -58,6 +58,12 @@ a{
 h2{
         text-align: center;
 }
+h3{
+  font-size: x-large;
+}
+h4 {
+  font-size: large;
+}
 
 /* Classes */ 
 .logoPrincipal {
@@ -113,10 +119,12 @@ header{
   background-color: ;
   width: 25%;
 }
+.contenedorImagen:hover {
+  transform: scale(1.15,1.15);
+}
 .image2 {
   width: 90%;
   margin-top: 10%;
-
 }
 .image {
     width: 30%;
