@@ -110,11 +110,13 @@ header{
     flex-wrap: wrap;
 }
 .contenedorImagen {
-  background-color: black;
+  background-color: ;
   width: 25%;
 }
 .image2 {
-  width: 80%;
+  width: 90%;
+  margin-top: 10%;
+
 }
 .image {
     width: 30%;
@@ -143,4 +145,13 @@ margin-bottom: 0;
 }
 .disclaimer {
     display: none;
+}
+.contacto1 {
+  text-align: center;
+}
+.textoFormulario {
+  background-color: #7C90A0;
+}
+.logoRedes {
+  width: 35px;
 }
