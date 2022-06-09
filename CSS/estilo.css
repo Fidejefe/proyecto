@@ -44,7 +44,7 @@ body{
 }
 .seccionRedes {
  display: flex;
- justify-content:space-around;
+ justify-content: space-around;
 }
 .redes:hover {
     color: #7C90A0;
@@ -98,7 +98,7 @@ header{
     text-align: center;
 }
 .mapa {
-    text-align: center;
+ margin-left: 30%;
     width: 40%; 
 }
 .fotoTrekking{
@@ -162,5 +162,5 @@ margin-bottom: 0;
   background-color: #7C90A0;
 }
 .logoRedes {
-  width: 35px;
+  width: 40px;
 }
