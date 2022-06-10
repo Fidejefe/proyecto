@@ -49,7 +49,7 @@ body{
 .redes:hover {
     color: #7C90A0;
 }
-a{
+.ancla{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -73,7 +73,7 @@ h4 {
     margin: 40px;
     font-size: x-large;   
 }
-a:hover {
+.ancla:hover {
     color: #B5AA9D;    
 }
 .imagenLogoPrincipal{
@@ -163,4 +163,15 @@ margin-bottom: 0;
 }
 .logoRedes {
   width: 40px;
+}
+.linkedIn {
+  text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.linkedIn:hover {
+  color: black;
+}
+.linkedIn2:hover {
+  color: #7C90A0;
 }
