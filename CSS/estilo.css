@@ -160,6 +160,10 @@ margin-bottom: 0;
 }
 .textoFormulario {
   background-color: #7C90A0;
+  border-radius: 20px;
+}
+.mensajeFormulario{
+ text-align: center;
 }
 .logoRedes {
   width: 40px;
