@@ -94,7 +94,8 @@ a:hover {
 
 .mapa {
   text-align: center;
-  width: 40%; }
+  margin-left: 30%;
+  width: 35%; }
 
 .fotoTrekking {
   width: 100%;
@@ -187,4 +188,6 @@ a:hover {
   h4 {
     font-size: small; }
   .logoRedes {
-    width: 20px; } }
+    width: 20px; }
+  .mapa {
+    width: 80%; } }
