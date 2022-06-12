@@ -1,7 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@300;400&display=swap');
+
 $color-principal: #B5AA9D ;
 $color-secundario: #7C90A0 ;
+$fuentes: 'Roboto', sans-serif;
+$fuentes-secundarias: 'Koulen', cursive;
+$dark: #000;
+$light: #FFF;
 
+// Globales
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    background-color: $color-principal; 
+    display: grid;
+    grid-template-rows: max-content;
+    font-family: $fuentes
+}
+
+h1 {
+    text-align: center;
+    font-family:  $fuentes
+}
+ 
+h2 {
+    text-align: center;
+}
+h3{
+    font-size: x-large;
+  }
+  h4 {
+    font-size: large;
+  }
+
+ul {
+    text-align: center;
+    font-size: large;
+}
+
+li {
+    display: inline;   
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none;
+    color: $dark;
+    font-weight: bold;
+}
+
+header{
+    background-color: $color-secundario;
+    display: grid;
+    grid-template-rows: max-content;
+}
+footer {
+    text-align: center;
+    display: grid;
+    grid-template-rows: max-content;
+}
+//Clases
+.seccionRedes {
+    display: flex;
+    justify-content: space-around;
+}
 .pageImages {
     text-align: center;
     display: flex;
@@ -12,6 +77,137 @@ $color-secundario: #7C90A0 ;
         text-align: center;
     }
 }
-body {
-   background-color: $color-principal; 
+.imagenLogoPrincipal{
+    width: 20%;
+}    
+.logoPrincipal {
+    text-align: center;
+}
+.menu {
+    margin: 40px;
+    font-size: x-large;
+    
+}
+.ancla{
+    text-decoration: none;
+    color: $dark;
+    font-weight: bold;
+}
+.ancla:hover {
+    color: $color-principal;    
+}
+a:hover {
+    color: $color-principal;    
+}
+.logo{
+    width: 10%;
+}
+.redes:hover {
+    color: $color-secundario;
+}
+.titulo{
+    text-align: center;
+}
+#titulo{    
+    text-align: center;
+}
+.mapa {
+    text-align: center;
+    width: 40%; 
+}
+.fotoTrekking{
+    width: 100%;
+    text-align: center;
+}
+/* Pages */
+.pageBackground {
+    width: 100%;
+}
+.pageImages {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.contenedorImagen {
+    width: 25%;}
+    .contenedorImagen:hover {
+        transform: scale(1.15,1.15);
+      }
+    .image {
+    width: 30%;
+    text-align: center;
+    padding: 2%;}
+    .fondoContacto {
+        width: 100%;
+    }  
+    .image2 {
+        width: 90%;
+        margin-top: 10%;
+     }
+    .ulPrincipal {
+        background-color:$color-secundario ;
+    }
+    .paginaActual {
+        font-family: 'Koulen', cursive;
+    font-size: xx-large;
+    background-color: $dark;
+    color: $color-principal;
+    margin-bottom: 0; }
+    .disclaimer {
+        display: none;
+    }
+    .pageImages {
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap; }
+
+        .contacto1 {
+            text-align: center;
+          }
+          .textoFormulario {
+            background-color: $color-secundario;
+            border-radius: 20px;
+          }
+          .mensajeFormulario{
+            text-align: center;
+           }
+              .logoRedes {
+            width: 40px;  }  
+              .linkedIn {
+            text-decoration: none;
+              color: black;
+              font-weight: bold; }
+          .linkedIn:hover {
+            color: black;
+          }
+          .linkedIn2:hover {
+            color: $color-secundario;
+          }
+          
+@media(max-width: '480px') { 
+    .ancla {
+        font-size: small;
+     }
+      #titulo {
+        font-size: medium;
+      }
+      .logo {
+        width: 15%;
+      }
+      .contenedorImagen {
+        width: 30%;
+      }
+      .preMapa {
+    font-size: medium;    
+      }
+      h3 {
+        font-size: medium;
+      }
+      h4 {
+        font-size: small;
+      }
+      .logoRedes {
+        width: 20px; }
 }
