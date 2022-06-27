@@ -94,8 +94,9 @@ a:hover {
 
 .mapa {
   text-align: center;
-  margin-left: 30%;
-  width: 35%; }
+  margin-left: 25%;
+  margin-bottom: 2%;
+  width: 50%; }
 
 .fotoTrekking {
   width: 100%;
@@ -146,11 +147,14 @@ a:hover {
   text-align: center;
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 2%; }
 
 .contenedorContacto {
   text-align: center;
-  margin-left: 38%; }
+  margin-left: 37%; }
 
 .contacto1 {
   display: flex;
@@ -185,13 +189,14 @@ a:hover {
 
 @media (max-width: 480px) {
   .ancla {
-    font-size: small; }
+    font-size: smaller; }
   #titulo {
     font-size: medium; }
   .logo {
     width: 15%; }
   .contenedorImagen {
-    width: 30%; }
+    width: 35%;
+    margin-left: 10%; }
   .preMapa {
     font-size: medium; }
   h3 {
@@ -201,5 +206,5 @@ a:hover {
   .logoRedes {
     width: 20px; }
   .mapa {
-    width: 80%;
+    width: 50px;
     margin: auto; } }
